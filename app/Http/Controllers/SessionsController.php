@@ -3,7 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use app\Models\User;
+use Auth;
 class SessionsController extends Controller
 {
     public function create()
